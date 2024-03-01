@@ -1,0 +1,77 @@
+body{
+    /* background-color: #1F2937; */
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0;
+    padding: 0; */
+}
+.top{
+    background-color: #1F2937;
+    color: white;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.header{
+    display: flex;
+    justify-content:center; 
+}
+.second-top{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+}
+.midlle{
+    display: flex;
+    flex-direction: column;
+}
+.sub-text-2{
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+  max-width: 200px;
+  /* margin-left: 52px; 
+  margin-right: 52px;  gap solves this reduncy*/ 
+  gap: 52px;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+.image-batch{
+    border: solid 1px blue;
+}
+
+.Quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.blue-card{
+    background-color:blue;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
