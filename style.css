@@ -133,12 +133,44 @@ img{
      text-align: center;
      font-size: 18px;
  }
-/* .Quote */
+
+/*this the third section of the landing page*/
+.third-section{
+    background-color:#E5E7EB;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h3{
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    color:#1F2937;
+    text-align: center;
+
+}
+
+.p-third{
+    font-size:18px;
+    font-weight: bold;
+
+}
+.p-div{
+    display:flex;
+    justify-content: end;
+    margin-right:100px;
+}
+
+/*this the fourth section of the landing page*/
 /* .blue-card-section */
 /* .blue-card */
 /* .text-part */
 /* .blue-heading */
 /* .blue-text */
+
+/*footer*/
 .footer{
     position: fixed;
     bottom: 0;
