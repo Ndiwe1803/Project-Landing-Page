@@ -96,12 +96,43 @@ img{
 
 /*this the second section of the landing page*/
 
-/* .second section*/
-/* .title*/
-/* .container*/
-/* .box */
-/* .box-image */
-/* .box-text */
+ .second section{
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+ h2{
+     font-size: 38px;
+     font-weight:bolder;
+     color:#1F2937;
+     text-align:center;
+ }
+
+ .container{
+     display:flex;
+     flex-direction:row;
+     justify-content: space-between;
+     margin:100px;
+     max-width:100%;
+ }
+ .box{
+     display: flex;
+     flex-direction: column;
+
+ }
+
+
+.box-blue{
+    border: 3px solid #3882F6;
+    width:200px;
+    height:200px;
+    border-radius:10px;
+}
+
+ .box-text{
+     text-align: center;
+     font-size: 18px;
+ }
 /* .Quote */
 /* .blue-card-section */
 /* .blue-card */
